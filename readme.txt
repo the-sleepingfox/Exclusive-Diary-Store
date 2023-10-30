@@ -1,5 +1,5 @@
 # my watch store
-This is a Flask-based my watch store website incorporates a functional shopping cart and Stripe Checkout API integration,
+This is a Flask-based my watch store website incorporates a functional shopping cart,
 allowing users to browse and purchase items securely.
 Additionally, it includes user-friendly login and registration authentication features
 
