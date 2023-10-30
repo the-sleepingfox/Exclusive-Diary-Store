@@ -72,7 +72,7 @@ def load_user(user_id):
     return User.get(User.id == user_id)
 
 
-YOUR_DOMAIN = 'http://localhost:4242'
+YOUR_DOMAIN = 'http://0.0.0.0'
 
 #-------------------------------- ADD TO CART ---------------------------------#
 @app.route("/cart")
@@ -340,4 +340,4 @@ def cancel():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=4242)
+    app.run(debug=False, port=0.0.0.0)
